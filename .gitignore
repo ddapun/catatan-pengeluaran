@@ -1,0 +1,14 @@
+# Artefak build (APK tersedia terpisah, tidak disimpan di git)
+dist/
+*.apk
+*.aab
+
+# Cache Supabase CLI
+supabase/.temp/
+
+# Rahasia — jangan pernah di-commit
+.env
+.env.*
+*.jks
+*.keystore
+key.properties
